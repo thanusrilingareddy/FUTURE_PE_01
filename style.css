@@ -1,0 +1,70 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background: #fff7f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #ff4d79;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Services */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* CTA */
+.cta {
+    text-align: center;
+    background: #ffe0e6;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Button */
+button {
+    background: #ff4d79;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #ff4d79;
+    color: white;
+}
